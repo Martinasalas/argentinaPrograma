@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;900&display=swap');
+#container{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+#fotoPerfil {
+    grid-area: "fotoPerfil";
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+#presentacion {
+    background-color: #6B99C3;
+}
+#nombre {
+    grid-area: "nombre";
+    font-size: 100px;
+    color:#D2D2D4;
+    background-color: #16354D;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100;
+}
+
+h2{
+    
+    text-align: center;
+    justify-self: center;
+    background-color: #16354D;
+    color: #E4E5EA;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+}
+h3{
+    
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+}
+h4{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 300;
+}
+h5{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100;
+    
+}
+#datosCont {
+    background-color: #D2D2D4;
+    color: #0C151C;
+}
+#datosCont ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#perfProf {
+    background-color: #D2D2D4;
+    color: #0C151C;
+    list-style: none;
+
+}
+#competencias {
+    background-color: #D2D2D4;
+    color: #0C151C;
+    list-style: none;
+
+}
+#cestMoi, #agarrateC, #formAca, #formCom {
+    padding: 5%;
+}
+
+@media (max-width: 500px) {
+
+    #container {
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
